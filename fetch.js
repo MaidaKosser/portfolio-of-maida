@@ -21,7 +21,7 @@ if (USE_GITHUB_DATA === "true") {
     throw new Error(ERR.noUserName);
   }
 
-  console.log(Fetching profile data for ${GITHUB_USERNAME});
+  console.log(`Fetching profile data for ${GITHUB_USERNAME}`);
   var data = JSON.stringify({
     query: `
 {
@@ -62,7 +62,7 @@ if (USE_GITHUB_DATA === "true") {
     port: 443,
     method: "POST",
     headers: {
-      Authorization: Bearer ${GITHUB_TOKEN},
+      Authorization: `Bearer ${GITHUB_TOKEN}`,
       "User-Agent": "Node"
     }
   };
@@ -70,7 +70,7 @@ if (USE_GITHUB_DATA === "true") {
   const req = https.request(default_options, res => {
     let data = "";
 
-    console.log(statusCode: ${res.statusCode});
+    console.log(`statusCode: ${res.statusCode}`);
     if (res.statusCode !== 200) {
       throw new Error(ERR.requestFailed);
     }
@@ -95,7 +95,7 @@ if (USE_GITHUB_DATA === "true") {
 }
 
 if (MEDIUM_USERNAME !== undefined) {
-  console.log(Fetching Medium blogs data for ${MEDIUM_USERNAME});
+  console.log(`Fetching Medium blogs data for ${MEDIUM_USERNAME}`);
   const options = {
     hostname: "api.rss2json.com",
     path: `/v1/api.json?rss_url=https://medium.com/feed/@${MEDIUM_USERNAME}`,
@@ -106,7 +106,7 @@ if (MEDIUM_USERNAME !== undefined) {
   const req = https.request(options, res => {
     let mediumData = "";
 
-    console.log(statusCode: ${res.statusCode});
+    console.log(`statusCode: ${res.statusCode}`);
     if (res.statusCode !== 200) {
       throw new Error(ERR.requestMediumFailed);
     }
