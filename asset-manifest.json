@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-of-maida/static/css/main.314ac86d.css",
-    "main.js": "/portfolio-of-maida/static/js/main.26615b80.js",
+    "main.js": "/portfolio-of-maida/static/js/main.c849bbe7.js",
     "static/css/64.bba8fa55.chunk.css": "/portfolio-of-maida/static/css/64.bba8fa55.chunk.css",
     "static/js/64.dfbe5e9d.chunk.js": "/portfolio-of-maida/static/js/64.dfbe5e9d.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/portfolio-of-maida/static/css/769.b3cbb36b.chunk.css",
@@ -24,12 +24,13 @@
     "static/media/python.webp": "/portfolio-of-maida/static/media/python.095188beb9c08bbc5b44.webp",
     "static/media/snapchatlogo.jpg": "/portfolio-of-maida/static/media/snapchatlogo.b43b4f3c13bd8aadaef9.jpg",
     "static/media/punjab.png": "/portfolio-of-maida/static/media/punjab.bb3f3970be8348cf03d0.png",
+    "static/media/document.jpg": "/portfolio-of-maida/static/media/document.0012218f6e83b500bc5f.jpg",
     "static/media/uiux.avif": "/portfolio-of-maida/static/media/uiux.ae84edf6a44d55d27240.avif",
     "static/media/skill.svg": "/portfolio-of-maida/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/portfolio-of-maida/index.html",
     "static/media/talksCardBack.svg": "/portfolio-of-maida/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.314ac86d.css.map": "/portfolio-of-maida/static/css/main.314ac86d.css.map",
-    "main.26615b80.js.map": "/portfolio-of-maida/static/js/main.26615b80.js.map",
+    "main.c849bbe7.js.map": "/portfolio-of-maida/static/js/main.c849bbe7.js.map",
     "64.bba8fa55.chunk.css.map": "/portfolio-of-maida/static/css/64.bba8fa55.chunk.css.map",
     "64.dfbe5e9d.chunk.js.map": "/portfolio-of-maida/static/js/64.dfbe5e9d.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/portfolio-of-maida/static/css/769.b3cbb36b.chunk.css.map",
@@ -37,6 +38,6 @@
   },
   "entrypoints": [
     "static/css/main.314ac86d.css",
-    "static/js/main.26615b80.js"
+    "static/js/main.c849bbe7.js"
   ]
 }
