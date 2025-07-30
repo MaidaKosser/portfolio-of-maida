@@ -316,7 +316,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/hotellogo.png"),
+      image: require("./assets/images/document.jpg"),
       projectName: "Point Of Sale System (Documentation)",
       projectDesc:
         "Designed to streamline sales operations for small-scale businesses such as retail shops, grocery stores, and service-based outlets.",
