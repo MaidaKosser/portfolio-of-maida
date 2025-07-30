@@ -1,4 +1,4 @@
-# 🌟 Maida Kosser – Personal Portfolio Website
+# 🌟 Maida Kosser – Personal Portfolio
 
 Welcome to my personal portfolio repository!  
 I'm **Maida Kosser**, a passionate and creative **Software Engineer**, showcasing my projects, skills, and experience in this fully responsive and modern portfolio website.
