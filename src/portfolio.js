@@ -408,7 +408,7 @@ const achievementSection = {
       imageAlt: "Python Logo",
       footerLink: [
         {
-          name: "Live Certificate",
+          name: "View Certificate",
           url: "https://www.udemy.com/certificate/UC-cba4c3d0-a5c8-4b35-a702-689c00405111/"
         }
       ]
