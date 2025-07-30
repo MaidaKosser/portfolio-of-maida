@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Maida Kosser",
+  title: "Hi, I'm Maida Kosser",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Aspiring Web & Mobile Developer | Building Seamless Digital Experiences with a Focus on Clean Code & Clear Documentation"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -33,15 +33,11 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
+  github: "https://github.com/MaidaKosser",
+  linkedin: "https://www.linkedin.com/in/maida-kosser-556597269",
+  gmail: "maidabutt2004@gmail.com",
+  twitter: "https://x.com/maidabutt01",
+  instagram: "https://www.instagram.com/maida_butt01/",
   display: true // Set true to display this section, defaults to false
 };
 
@@ -49,14 +45,17 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle:
+    "Aspiring Developer exploring the world of Web & Mobile Technologies",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Creating responsive and user-friendly websites using HTML, CSS, JavaScript, and PHP"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Exploring React, Node.js & React Native to build modern web and mobile apps"
+    ),
+    emoji(
+      "⚡ Learning Firebase integration and improving UI/UX through real-world practice projects"
     )
   ],
 
@@ -73,48 +72,61 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "PHP",
+      fontAwesomeClassname: "fab fa-php"
     },
     {
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "Firebase",
+      fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
+      skillName: "MySQL",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "NodeJS",
+      fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "Figma",
+      fontAwesomeClassname: "fab fa-figma"
+    },
+    {
+      skillName: "React Native",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "Behance",
+      fontAwesomeClassname: "fab fa-behance"
+    },
+    {
+      skillName: "Bootstrap",
+      fontAwesomeClassname: "fab fa-bootstrap"
+    },
+
+    {
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "WordPress",
+      fontAwesomeClassname: "fab fa-wordpress"
     },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,23 +138,29 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "GIFT University",
+      logo: require("./assets/images/giftlogo.png"),
+      subHeader: "Bachelor of Science in Software Engineering",
+      duration: "Dec 2022 - Present",
+      desc: "Pursuing a Bachelor's degree with a strong focus on building scalable web and mobile applications, exploring software design, and understanding real-world development processes.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Working on multiple real-time projects involving full-stack development",
+        "Gained experience in Java, PHP, React, Node.js, and Firebase",
+        "Learning through self-driven projects and staying updated with industry trends",
+        "Consistently maintaining strong academic performance"
       ]
     },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+     {
+      schoolName: "Punjab Group of Colleges",
+      logo: require("./assets/images/punjab.png"),
+      subHeader: "Intermediate in FSc - Pre-Medical",
+      duration: "October 2020 - June 2022",
+      desc: "Completed FSc Pre-Medical with 85% marks.",
+      descBullets: [
+        "While pursuing medical studies, I discovered a deep interest in technology and computers.",
+        "Spent my free time exploring programming, problem-solving, and understanding how computers work.",
+        "This passion led me to transition into the software engineering field to follow my true calling."
+      ]
     }
   ]
 };
@@ -162,42 +180,51 @@ const techStack = {
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "70%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
-
 // Work experience section
-
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Technical Project Mentor",
+      company: "GIFT University",
+      companylogo: require("./assets/images/giftlogo.png"),
+      date: "2023 – Present",
+      desc: "Mentored students on academic project development using clean code principles, agile collaboration, and complete documentation lifecycle.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Guided software engineering teams for systems like Bus Ticket Booking System, Point of Sale System, And Hotel Managemnet System",
+        "Managed UI/UX in Figma, backend in PHP/MySQL,using Firebase, Node.js and produced full documentation (SRS, DFDs, ERD, etc.)."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Peer Project Help",
+      company: "Self-employed",
+      companylogo: require("./assets/images/selfemployee.jpg"), // replace with your freelance logo or a default one
+      date: "Ongoing",
+      desc: "Offering expert consulting in full-stack web development, database management, DSA, and academic project support.",
+      descBullets: [
+        "Developed and supported projects using HTML, Tailwind CSS, PHP, MySQL, and Java",
+        "Led backend and UI/UX design using Figma, PHP, MySQL",
+        "Managed full project cycles including documentation and implementation",
+        "Boosted team efficiency by applying software engineering principles"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+      role: "Project Leader – Course Projects",
+      company: "GIFT University",
+      companylogo: require("./assets/images/projectlead.jpg"), // replace with your project leader logo or a default one
+      date: "2023 – Present",
+      desc: "Major university course projects like Point of Sale System, Matchmaking Website, and UI/UX Documentation Project.",
+      descBullets: [
+        "Managed both frontend and backend development",
+        "Produced detailed software documentation covering architecture, flow, and system usage",
+        "Designed UI mockups in Figma and implemented responsive interfaces"
+      ]
+    },
   ]
 };
 
@@ -210,140 +237,224 @@ const openSource = {
 };
 
 // Some big projects you have worked on
-
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "My Projects ",
+  subtitle:
+    "Here are some of the cool and meaningful projects I've worked on recently.",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/pos.jpg"),
+      projectName: "POS",
+      projectDesc:
+        "A responsive and dynamic POS system with figma and code, for inventory and sales management. Built using modern front-end with PHP/MySQL backend.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "View Project",
+          url: "https://github.com/MaidaKosser/Point-of-Sale-System.git"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/logo12.png"),
+      projectName: "Lab Link App",
+      projectDesc:
+        "React Native & Firebase based file sharing platform built for the Mobile Computing course. Supports file upload and real-time database sync.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "View Github Repository",
+          url: "https://github.com/MaidaKosser/Lab-Link-Medical-Lab-Test-Booking-App.git"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/logo.png"),
+      projectName: "Matchmaking Website",
+      projectDesc:
+        "A matchmaking platform with free and premium profile management, built using PHP, MySQL, and dynamic front-end logic.",
+      footerLink: [
+        {
+          name: "View Project",
+          url: "https://github.com/MaidaKosser/Matchmaking-Web.git"
+        }
+      ]
+    },
+     {
+      image: require("./assets/images/snapchatlogo.jpg"),
+      projectName: "Snapchat (SQE) Testing Project",
+      projectDesc:
+        "Detailed testing on the Snapchat application to evaluate the app’s behavior under various conditions.",
+      footerLink: [
+        {
+          name: "View documentation",
+          url: "https://github.com/MaidaKosser/Snapchat-TestCasesDesign.git"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/ciscologo.png"),
+      projectName: "University Networking System Cisco Packet Tracer",
+      projectDesc:
+        "Design a scalable and optimized network that demonstrates real-world concepts such as subnetting, routing protocols, and logical topology design.",
+      footerLink: [
+        {
+          name: "View Github Repository",
+          url: "University-Networking-System-Cisco-Packet-Tracer"
+        }
+      ]
+    }
+    ,
+    {
+      image: require("./assets/images/hotellogo.png"),
+      projectName: "Hotel Management System",
+      projectDesc:
+        "A console-based Hotel Management System developed using Object-Oriented Programming (OOP) concepts in Java.",
+      footerLink: [
+        {
+          name: "View github Repository",
+          url: "https://github.com/MaidaKosser/Hotel-Management-System.git"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/document.jpg"),
+      projectName: "Point Of Sale System (Documentation)",
+      projectDesc:
+        "Designed to streamline sales operations for small-scale businesses such as retail shops, grocery stores, and service-based outlets.",
+      footerLink: [
+        {
+          name: "View Documentation",
+          url: "https://github.com/MaidaKosser/Point-of-Sale-System-Documentation-.git"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/bus.png"),
+      projectName: "Bus Ticket Booking System",
+      projectDesc:
+        "Developed a comprehensive documentation set for a Bus Ticket Booking System that automates ticket reservations for intercity and local travel.",
+      footerLink: [
+        {
+          name: "View Documentation",
+          url: "https://github.com/MaidaKosser/Bus-Ticket-Booking-System.git"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/document.jpg"),
+      projectName: "HMS Documentation Project",
+      projectDesc:
+        "Document a Hotel Management System that streamlines basic hotel operations using core OOP concepts.",
+      footerLink: [
+        {
+          name: "View Documentation",
+          url: "https://github.com/MaidaKosser/HMS-Documentation.git"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/busr.png"),
+      projectName: " University Smart Bus and Route Management System",
+      projectDesc:
+        "This project models a university’s Smart Bus and Route Management System using formal methods to ensure correctness, clarity, and system reliability.",
+      footerLink: [
+        {
+          name: "View Github Repository",
+          url: "https://github.com/MaidaKosser/University-Smart-Bus-and-Route-Management-System.git"
         }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
-
 // Achievement Section
 // Include certificates, talks etc
-
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Certifications, Projects, and Learning Milestones that reflect my journey!",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "UI/UX Design Certificate",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Completed a certified UI/UX design course from Coursera, Covered key areas like responsive design, accessibility, and user-centered interface development.",
+      image: require("./assets/images/uiux.avif"),
+      imageAlt: "FreeCodeCamp Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "View Certificate",
+          url: "https://coursera.org/share/bea06b8444a2558fc9672c05ec4ef234"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "WordPress Development",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Developed multiple WordPress plugins and themes, enhancing the functionality and user experience of various websites.",
+      image: require("./assets/images/wordpress.png"),
+      imageAlt: "WordPress Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "View Certificate",
+          url: "https://coursera.org/share/48295418d1b1d604a8ec1d7f294daab8"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Python Programming",
+      subtitle:
+        "Completed a beginner-level course covering Python fundamentals including variables, data types, loops, conditionals, functions, and basic file handling.",
+      image: require("./assets/images/python.webp"),
+      imageAlt: "Python Logo",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Live Certificate",
+          url: "https://www.udemy.com/certificate/UC-cba4c3d0-a5c8-4b35-a702-689c00405111/"
         }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Blogs Section
-
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+    "I love putting my thoughts into words—especially when it comes to tech, growth, and real experiences that matter.",
+  displayMediumBlogs: "false", // Keep this false if you want to show your own blogs instead of Medium auto-fetch
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://medium.com/@yourusername/matchmaking-in-tech-beyond-the-dating-apps-xyz123",
+      title: "Matchmaking in Tech: Beyond the Dating Apps",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Exploring how matchmaking algorithms are changing industries—from HR to social platforms—and how you can build one."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://medium.com/@yourusername/from-code-to-connections-building-digital-relationships-fb9810",
+      title: "From Code to Connections: Building Digital Relationships",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "A deep dive into how user behavior data can be used to form meaningful digital matches. A must-read for devs building communities."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false
 };
 
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
+  title: "Talks",
+  subtitle: emoji("Sharing what I know is how I grow 💬"),
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "Point Of Sale Systems on small Scale using PHP & MySQL",
+      subtitle: "Guest Lecture at WomenInTech Conf 2025",
+      slides_url: "https://yourdomain.com/slides/smart-matching",
+      event_url: "https://yourdomain.com/events/womenintech2025"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false
 };
 
 // Podcast Section
@@ -356,7 +467,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -372,15 +483,15 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+92-317-8105371",
+  email_address: "maidabutt2004@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  userName: "maidabutt01", //Replace "twitter" with your twitter username without @
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer

@@ -1,15 +1,16 @@
-@import "../../_globalColor";
-
-.footer-text {
-  text-align: center;
-  color: $subTitle !important;
-}
-
-.dark-mode {
-  color: $textColorDark !important;
-}
-
 .footer-div {
-  margin-top: 2rem;
-  padding-bottom: 1rem;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+  background-color: transparent;
+
+  .footer-text {
+    color: #6c757d;
+    margin: 0;
+    font-weight: 400;
+  }
+
+  .dark-mode.footer-text {
+    color: #ccc;
+  }
 }
