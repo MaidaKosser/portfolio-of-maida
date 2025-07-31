@@ -150,7 +150,7 @@ const educationInfo = {
         "Consistently maintaining strong academic performance"
       ]
     },
-     {
+    {
       schoolName: "Punjab Group of Colleges",
       logo: require("./assets/images/punjab.png"),
       subHeader: "Intermediate in FSc - Pre-Medical",
@@ -224,7 +224,7 @@ const workExperiences = {
         "Produced detailed software documentation covering architecture, flow, and system usage",
         "Designed UI mockups in Figma and implemented responsive interfaces"
       ]
-    },
+    }
   ]
 };
 
@@ -278,7 +278,7 @@ const bigProjects = {
         }
       ]
     },
-     {
+    {
       image: require("./assets/images/snapchatlogo.jpg"),
       projectName: "Snapchat (SQE) Testing Project",
       projectDesc:
@@ -301,8 +301,7 @@ const bigProjects = {
           url: "University-Networking-System-Cisco-Packet-Tracer"
         }
       ]
-    }
-    ,
+    },
     {
       image: require("./assets/images/hotellogo.png"),
       projectName: "Hotel Management System",
