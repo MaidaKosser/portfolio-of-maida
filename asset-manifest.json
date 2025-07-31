@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-of-maida/static/css/main.314ac86d.css",
-    "main.js": "/portfolio-of-maida/static/js/main.e0d2ec96.js",
+    "main.js": "/portfolio-of-maida/static/js/main.04a8d611.js",
     "static/css/64.bba8fa55.chunk.css": "/portfolio-of-maida/static/css/64.bba8fa55.chunk.css",
     "static/js/64.dfbe5e9d.chunk.js": "/portfolio-of-maida/static/js/64.dfbe5e9d.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/portfolio-of-maida/static/css/769.b3cbb36b.chunk.css",
@@ -30,7 +30,7 @@
     "index.html": "/portfolio-of-maida/index.html",
     "static/media/talksCardBack.svg": "/portfolio-of-maida/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.314ac86d.css.map": "/portfolio-of-maida/static/css/main.314ac86d.css.map",
-    "main.e0d2ec96.js.map": "/portfolio-of-maida/static/js/main.e0d2ec96.js.map",
+    "main.04a8d611.js.map": "/portfolio-of-maida/static/js/main.04a8d611.js.map",
     "64.bba8fa55.chunk.css.map": "/portfolio-of-maida/static/css/64.bba8fa55.chunk.css.map",
     "64.dfbe5e9d.chunk.js.map": "/portfolio-of-maida/static/js/64.dfbe5e9d.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/portfolio-of-maida/static/css/769.b3cbb36b.chunk.css.map",
@@ -38,6 +38,6 @@
   },
   "entrypoints": [
     "static/css/main.314ac86d.css",
-    "static/js/main.e0d2ec96.js"
+    "static/js/main.04a8d611.js"
   ]
 }
