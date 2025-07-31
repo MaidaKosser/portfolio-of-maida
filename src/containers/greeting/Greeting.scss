@@ -17,6 +17,22 @@
   display: flex;
 }
 
+.greeting-text {
+  font-size: 70px;
+  line-height: 1.1;
+  color: $textColor !important; // fallback
+
+  // Light mode
+  &.light-mode {
+    color: black !important;
+  }
+
+  // Dark mode
+  &.dark-mode {
+    color: white !important;
+  }
+}
+
 .subTitle {
   color: $subTitle !important;
 }
